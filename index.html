@@ -1,0 +1,63 @@
+<!-- Landing page of Wildlife Protection Community by using background video -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>World WildLife</title>
+  </head>
+
+  <body>
+    <section class="showcase">
+      <header>
+        
+        <h2 class="logo"><a href="#"><img src="background/logo1.svg" alt="logo_img" width="30" height="20"></a>WWF&nbsp; </h2>
+        <div class="toggle"></div>
+      </header>
+     <video src = "background/redPanda.mp4" muted loop autoplay></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2> Red Letter day</h2>
+        <h3> for Red Pandas </h3>
+        <p>Almost 50% of the red panda’s habitat is in the Eastern Himalayas. The loss of nesting trees and bamboo is causing a decline in red panda populations across much of their range because their forest home is being cleared.</p>
+        <span>
+          <a href="#">Adopt</a>
+    
+          <a href="#" style="margin-left: 16px; background-color: rgb(235, 225, 44);">Donate</a>
+        </span>
+      </div>
+
+      <ul class="social">
+        <li><a href="#"><img src="background/facebook.png" alt="facebok_img"></a></li>
+        <li><a href="#"><img src="background/twitter.png" alt="twitter_img"></a></li>
+        <li><a href="#"><img src="background/instagram.png" alt="instagram_img"></a></li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News & Press</a></li>
+        <li><a href="#">Our Values</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+    </script>
+  </body>
+</html>
