@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+/* The :root selector allows you to target the highest-level “parent” element in the DOM, or document tree. */
 :root {
   --color1: rgb(241, 86, 42);
 }
 
+/* The asterisk (*) is known as the CSS universal selectors. It can be used to select any and all types of elements in an HTML page. The asterisk can also be followed by a selector while using to select a child object. This selector is useful when we want to select all the elements on the page. */
 * {
   margin: 0;
   padding: 0;
