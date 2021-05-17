@@ -1,5 +1,4 @@
 ##World-Wild-liFe-landing-page
 
-This web-page demonstrates how to use a video in the background of
-a website.
-- made by Gaurav Sharma
+You can preview the website on given link :- 
+https://gekko12.github.io/world-wild-life-landingPage/
